@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  width: 300px;
+}
+
+input {
+    width: 93%;
+    margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+select, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: #ff9800;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e68900;
+}
